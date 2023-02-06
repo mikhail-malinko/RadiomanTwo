@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66b3a0e8-2e29-408e-be5a-91f1dff6e706" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/radioman/Radio/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/netology/radioman/Radio/RadioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/radioman/Radio/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/radioman/Radio/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/radioman/Radio/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/radioman/Radio/RadioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +46,18 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_directory_selection": "D:/java.netology/Radioman/src/test/java",
-    "last_opened_file_path": "D:/java.netology/Radio"
+    "last_opened_file_path": "D:/java.netology/radio-2"
   }
 }]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean test" />
+      <command value="mvn spotbugs:check" />
+      <command value="mvn spotbugs:help" />
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.volumeDown">
+  <component name="RunManager" selected="JUnit.RadioTest">
     <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radioman" />
       <extension name="coverage">
@@ -72,7 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.prevStationFromTheMiddle (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.nextStationWhenTheNumberIsSetByTheUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radioman" />
       <extension name="coverage">
         <pattern>
@@ -82,13 +83,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.radioman.Radio" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.radioman.Radio.RadioTest" />
-      <option name="METHOD_NAME" value="prevStationFromTheMiddle(int,int)" />
+      <option name="METHOD_NAME" value="nextStationWhenTheNumberIsSetByTheUser(int,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadioTest.stationByNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RadioTest.prevStationWhenTheNumberIsSetByTheUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Radioman" />
       <extension name="coverage">
         <pattern>
@@ -98,7 +99,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ru.netology.radioman.Radio" />
       <option name="MAIN_CLASS_NAME" value="ru.netology.radioman.Radio.RadioTest" />
-      <option name="METHOD_NAME" value="stationByNumber(int,int)" />
+      <option name="METHOD_NAME" value="prevStationWhenTheNumberIsSetByTheUser(int,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RadioTest" />
         <item itemvalue="JUnit.RadioTest.volumeDown" />
         <item itemvalue="JUnit.RadioTest.volumeUp" />
-        <item itemvalue="JUnit.RadioTest.stationByNumber" />
-        <item itemvalue="JUnit.RadioTest" />
-        <item itemvalue="JUnit.RadioTest.prevStationFromTheMiddle (1)" />
+        <item itemvalue="JUnit.RadioTest.nextStationWhenTheNumberIsSetByTheUser" />
+        <item itemvalue="JUnit.RadioTest.prevStationWhenTheNumberIsSetByTheUser" />
       </list>
     </recent_temporary>
   </component>
